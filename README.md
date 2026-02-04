@@ -23,7 +23,7 @@ This also helps you reset it quickly (basically do not mount the storage space a
 ```yaml
 services:
     garage:
-        image: 'ghcr.io/oxodao/garage-dev:v2.1.0'
+        image: 'ghcr.io/oxodao/garage:v2.2.0'
         restart: 'unless-stopped'
         environment:
             GARAGE_BUCKET: 'mybucket'

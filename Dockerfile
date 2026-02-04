@@ -1,4 +1,4 @@
-FROM dxflrs/garage:v2.1.0 AS garage
+FROM dxflrs/garage:v2.2.0 AS garage
 
 FROM debian:trixie-slim
 
